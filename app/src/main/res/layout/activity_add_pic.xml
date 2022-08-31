@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/back2"
+    tools:context=".AddInfoActivity">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_theme_blue"
+        android:gravity="center"
+        android:text="添加"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="22dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="名称"
+            android:textColor="@color/color_333333"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_22"
+            android:background="@null"
+            android:gravity="right|center_vertical"
+            android:hint="输入名称"
+            android:textColor="@color/color_333333"
+            android:textColorHint="@color/color_666666"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/color_f2f2f2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingLeft="22dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="类别"
+            android:textColor="@color/color_333333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/edt_kll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_11"
+
+            android:gravity="right|center_vertical"
+            android:hint="选择类别"
+            android:textColor="@color/color_333333"
+            android:textColorHint="@color/color_666666"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/color_f2f2f2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="图片"
+        android:textColor="@color/color_333333"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imgv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@mipmap/ic_launcher"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/layout_1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_bg_0f8dfb"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="添加"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
